@@ -54,19 +54,26 @@ header img{
 /* Main */
 
 main{
-    margin: 5rem auto;
+    margin: 4rem auto;
     width: 22rem;
     height: auto;
 }
+
+
+
+.picked, .choice-block{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    justify-items: center;
+    justify-self: center;
+}
+
+/* Choice-block */
 
 .choice-block{
     background: no-repeat local 50% 80%;
     background-image: url(./img/bg-triangle.svg);
     background-size: 55%;
-    display: grid;
-    grid-template: repeat(2, 1fr);
-    justify-items: center;
-    justify-self: center;
 }
 
 .btn-paper{
@@ -85,6 +92,7 @@ main{
 .btn-choice{
     border: none;
     border-radius: 50%;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, 0.15);
     height: 7.5rem;
     width: 7.5rem;
 }
@@ -92,6 +100,7 @@ main{
 .btn-choice .wrapper{
     background-color: #fff;
     border-radius: 50%;
+    box-shadow: inset 0 6px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -103,19 +112,55 @@ main{
     width: 2.5rem;
 }
 
+/* picked-block */
+
+.picked h1{
+    font-size: 3rem;
+}
+
+
+.picked p, h1{
+    font-size: .9rem;
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn-result{
+    padding: .9rem 4rem;
+    background-color: #fff;
+    color: hsl(229, 25%, 31%);
+    border: none;
+    margin-top: 1rem;
+}
+
+.result{
+    text-align: center;
+    padding-top: 2rem;
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+
+
 /* Footer */
 
 footer{
-    margin-top: 6.5rem;
+    margin-top: 3rem;
     text-align: center;
 }
 
-.rules{
+.btn-rules{
     background: none;
-    border: 2px solid var(--border-color);
-    border-radius: 9px;
     color: #fff;
+    border: 2px solid var(--border-color);
     padding: .7rem 2.2rem;
+}
+
+.btn-rules, .btn-result{
+    border-radius: 9px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
