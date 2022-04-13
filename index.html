@@ -18,44 +18,44 @@
     </header>
 
     <main>
-      <!-- <div class="choice-block">
-            <button data-choice="paper" class="btn-choice btn-paper">
+      <div class="choice-block" id="choiceBlock">
+            <button data-choice="paper" class="btn-choice btn-paper pushed">
                 <span class="wrapper">
                     <img src="./img/icon-paper.svg" alt="paper image">
                 </span>
             </button>
             
-            <button data-choice="scissors" class="btn-choice btn-scissors">
+            <button data-choice="scissors" class="btn-choice btn-scissors pushed">
                 <span class="wrapper">
                      <img src="./img/icon-scissors.svg" alt="scissors image">
                 </span>
             </button>
             
-            <button data-choice="rock" class="btn-choice btn-rock">
+            <button data-choice="rock" class="btn-choice btn-rock pushed">
                 <span class="wrapper">
                     <img src="./img/icon-rock.svg" alt="rock image">
                 </span>
             </button>
-        </div> -->
+        </div>
 
-      <div class="picked">
+      <div class="picked" id="pickedBlock">
         <div class="user-picked">
-          <button class="btn-choice btn-paper">
+          <button class="btn-choice btn-paper" id="userSelection">
             <span class="wrapper">
-              <img src="./img/icon-paper.svg" alt="paper image" />
+              <img src="./img/icon-paper.svg" alt="paper icon" />
             </span>
           </button>
           <p>You Picked</p>
         </div>
 
         <div class="result">
-            <h1>You lose</h1>
-            <button class="btn-result">Play Again</button>
+            <h1>You <span id="winner">lose</span></h1>
+            <button class="btn-result" id="resetGame">Play Again</button>
         </div>
         
 
         <div class="house-picked">
-          <button class="btn-choice btn-scissors">
+          <button class="btn-choice btn-scissors" id="computerSelection">
             <span class="wrapper">
               <img src="./img/icon-scissors.svg" alt="scissors image" />
             </span>

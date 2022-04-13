@@ -114,6 +114,10 @@ main{
 
 /* picked-block */
 
+.picked{
+    display: none;
+}
+
 .picked h1{
     font-size: 3rem;
 }
