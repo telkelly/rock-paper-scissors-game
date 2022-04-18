@@ -5,12 +5,27 @@ const btnPlayAgain = document.getElementById('resetGame');
 const winner = document.getElementById('winner')
 const userSelection = document.getElementById('userSelection');
 const computerSelection = document.getElementById('computerSelection');
+const userScore = document.getElementById('score');
 
+// Array for random function
 const choices = ['paper', 'scissors', 'rock'];
 
-let userScore = document.getElementById('score');
+// Rules buttons
+const btnRulesOpen = document.getElementById('btnRulesOpen');
+const btnRulesClose = document.getElementById('btnRulesClose');
+const rulesBlock = document.getElementById('rulesBlock');
+
+
 let score = 0;
 let userChoice = undefined;
+
+btnRulesOpen.addEventListener('click', () => {
+    rulesBlock.style.display = 'flex';
+})
+
+btnRulesClose.addEventListener('click', () => {
+    rulesBlock.style.display = 'none';
+})
 
 buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -35,22 +50,19 @@ function checkWinner() {
     updatePickedBtn(computerSelection, computerChoice);
 
     if (userChoice === computerChoice) {
-        // draw
         winner.innerText = 'draw'
     } else if (userChoice === 'paper' && computerChoice === 'rock'
         || userChoice === 'rock' && computerChoice === 'scissors'
         || userChoice === 'scissors' && computerChoice === 'rock') {
-        // user win
         updateScore(1)
         winner.innerText = 'win'
     } else {
-        updateScore(-1)
         winner.innerText = 'lose'
     }
 }
 
-function updateScore(value) {
-    score += value;
+function updateScore() {
+    score += 1;
 
     userScore.innerText = score;
 }

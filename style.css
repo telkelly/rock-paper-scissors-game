@@ -149,7 +149,28 @@ main{
 
 
 
-/* Footer */
+/* Rules section */
+
+.rules-img{
+    background-color: #f0f0f0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
+
+.rules-img button{
+    border: none;
+    background-color: transparent;
+    margin-top: 4rem;
+    transform: scale(1.2);
+}
 
 footer{
     margin-top: 3rem;
