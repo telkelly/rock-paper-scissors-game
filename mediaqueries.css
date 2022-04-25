@@ -1,0 +1,61 @@
+@media screen and (min-width: 576px) {
+    header{
+        width: 400px;
+        margin: 1.5rem auto;
+    }
+
+    main {
+        margin: 8rem auto;
+        width: 25rem;
+        height: auto;
+    }
+
+    .btn-choice {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .btn-choice .wrapper {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .btn-choice img {
+        width: 3.3rem;
+    }
+
+    .picked{
+        position: relative;
+        left: -80px;
+        width: 500px;
+        height: 250px;
+        column-gap: 2rem;
+        grid-template-columns: 3fr;
+        grid-template-rows: 2fr;
+        align-items: center;
+    }
+
+    .picked h1 {
+        font-size: 2.3rem;
+    }
+
+    .result {
+        text-align: center;
+        padding-top: 2rem;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .house-picked{
+        grid-column: 3;
+    }
+
+    .rules-block {
+        position: fixed;
+        bottom: 20px;
+        left: 530px;
+        margin-top: 2rem;
+        margin-right: 1.5rem;
+        text-align: right;
+    }
+}
