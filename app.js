@@ -8,7 +8,7 @@ const computerSelection = document.getElementById('computerSelection');
 const userScore = document.getElementById('score');
 
 // Array for random function
-const choices = ['paper', 'scissors', 'rock'];
+const choices = ['paper', 'scissors', 'rock', 'spock', 'lizard'];
 
 // Rules buttons
 const btnRulesOpen = document.getElementById('btnRulesOpen');
@@ -51,10 +51,18 @@ function checkWinner() {
 
     if (userChoice === computerChoice) {
         winner.innerText = 'draw'
-    } else if (userChoice === 'paper' && computerChoice === 'rock'
+    } else if (
+            userChoice === 'paper' && computerChoice === 'rock'
         || userChoice === 'rock' && computerChoice === 'scissors'
-        || userChoice === 'scissors' && computerChoice === 'rock') {
-        updateScore(1)
+        || userChoice === 'scissors' && computerChoice === 'paper'
+        || userChoice === 'rock' && computerChoice === 'lizard'
+        || userChoice === 'lizard' && computerChoice === 'spock'
+        || userChoice === 'spock' && computerChoice === 'scissors'
+        || userChoice === 'lizard' && computerChoice === 'paper'
+        || userChoice === 'paper' && computerChoice === 'spock'
+        || userChoice === 'scissors' && computerChoice === 'lizard'
+        || userChoice === 'spock' && computerChoice === 'rock') {
+        updateScore()
         winner.innerText = 'win'
     } else {
         winner.innerText = 'lose'
@@ -76,6 +84,8 @@ function updatePickedBtn(pickedEl, choice) {
     pickedEl.classList.remove('btn-paper');
     pickedEl.classList.remove('btn-rock');
     pickedEl.classList.remove('btn-scissors');
+    pickedEl.classList.remove('btn-spock');
+    pickedEl.classList.remove('btn-lizard');
 
 
     // update image
