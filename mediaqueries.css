@@ -1,53 +1,43 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   header {
-    width: 400px;
-    margin: 1.5rem auto;
-  }
-
-  main {
-    margin: 5rem auto;
-    width: 20rem;
-    height: auto;
-  }
-
-  .btn-choice {
-    height: 9rem;
-    width: 9rem;
-  }
-
-  .btn-choice .wrapper {
-    height: 7rem;
-    width: 7rem;
-  }
-
-  .btn-choice img {
-    width: 3.3rem;
+    width: 500px;
+    margin: 1.5rem auto 0;
   }
 
   .choice-block {
-    grid-column-gap: 50px;
-    background: no-repeat local 65% 100%;
-    background-size: 75%;
+    row-gap: 0.8rem;
+    margin: 3rem auto 0;
+    width: 395px;
+    height: auto;
+    background: no-repeat local 50% 50%;
+    background-image: url(./img/bg-pentagon.svg);
+    background-size: 70%;
   }
 
   .picked {
-    position: relative;
-    left: -110px;
-    width: 541px;
-    height: 250px;
-    column-gap: 2rem;
-    grid-template-columns: 3fr;
-    grid-template-rows: 2fr;
-    align-items: center;
+    width: 600px;
+    margin: 9rem auto 0;
+    grid-template: 1fr / repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 1.5rem;
   }
 
-  .picked h1 {
-    font-size: 2.3rem;
+  .btn-choice {
+    height: 7.6rem;
+    width: 7.6rem;
+  }
+
+  .btn-choice .wrapper {
+    height: 5.9rem;
+    width: 5.9rem;
+  }
+
+  .user-picked {
+    grid-column: 1;
   }
 
   .result {
-    text-align: center;
-    padding-top: 2rem;
+    padding-top: 0;
     grid-column: 2;
     grid-row: 1;
   }
@@ -56,49 +46,9 @@
     grid-column: 3;
   }
 
-  .rules-block {
-    text-align: right;
-    margin-top: 2rem;
-    margin-right: 1.5rem;
-    text-align: right;
+  .btn-rules {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
   }
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    width: 550px;
-    margin: 1.5rem auto;
-  }
-
-  header img {
-    height: 5rem;
-    width: auto;
-  }
-
-  .score-block {
-    width: 100px;
-    padding: 20px 0;
-  }
-
-  .choice-block {
-    grid-column-gap: 70px;
-    background: no-repeat local 72% 100%;
-    background-size: 75%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-    header{
-        margin-bottom: 7rem;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    header{
-        margin-bottom: 4rem;
-    }
-
-    .score-block p, .btn-rules, .score-block p{
-        font-size: 1rem;
-    }
 }
