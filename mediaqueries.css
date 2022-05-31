@@ -5,18 +5,18 @@
   }
 
   .choice-block {
-    row-gap: 0.8rem;
+    grid-template: repeat(3, 140px) / repeat(2, 1fr);
     margin: 3rem auto 0;
     width: 395px;
     height: auto;
     background: no-repeat local 50% 50%;
     background-image: url(./img/bg-pentagon.svg);
-    background-size: 70%;
+    background-size: 75%;
   }
 
   .picked {
     width: 600px;
-    margin: 9rem auto 0;
+    margin: 10rem auto 0;
     grid-template: 1fr / repeat(3, 1fr);
     justify-items: center;
     column-gap: 1.5rem;
