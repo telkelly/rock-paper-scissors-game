@@ -152,6 +152,18 @@ header img {
   width: 2.5rem;
 }
 
+.pushed{
+  transition: all 0.3s ease-in-out;
+  transition: width 1s, height 2s, transform 1s;
+}
+
+.pushed:hover, .pushed:focus{
+  background-color: #FFCCCC;
+  width: 8.4rem;
+  height: 8.4rem;
+  transform: scale(1);
+}
+
 /* picked-block */
 
 .picked {
@@ -183,6 +195,7 @@ h1 {
   color: hsl(229, 25%, 31%);
   border: none;
   margin-top: 1rem;
+  font-size: 1rem;
 }
 
 .result {
