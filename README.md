@@ -22,11 +22,11 @@ Users should be able to:
 
 ### Screenshot for small devices:
 
-[url=https://postimg.cc/JH3ZgXLz][img]https://i.postimg.cc/JH3ZgXLz/small-1.png[/img][/url]
+![url=https://postimg.cc/JH3ZgXLz][img]https://i.postimg.cc/JH3ZgXLz/small-1.png[/img][/url]
 
-[url=https://postimg.cc/64xCY0FP][img]https://i.postimg.cc/64xCY0FP/small-2.png[/img][/url]
+![url=https://postimg.cc/64xCY0FP][img]https://i.postimg.cc/64xCY0FP/small-2.png[/img][/url]
 
-[url=https://postimg.cc/mcqYFRjB][img]https://i.postimg.cc/mcqYFRjB/small-3.png[/img][/url]
+![url=https://postimg.cc/mcqYFRjB][img]https://i.postimg.cc/mcqYFRjB/small-3.png[/img][/url]
 
 ### Screenshot for laptop devices:
 
