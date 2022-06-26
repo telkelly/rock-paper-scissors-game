@@ -21,8 +21,7 @@ Users should be able to:
 - Maintain the state of the score after refreshing the browser
 
 ### Screenshot for small devices:
-
-[img]https://i.postimg.cc/JH3ZgXLz/small-1.png[/img]
+<a href="https://postimg.cc/qtgcRg81" target="_blank"><img src="https://i.postimg.cc/YSzddWjB/big-1.png" alt="big-1"/></a><br/><br/>
 
 [img]https://i.postimg.cc/64xCY0FP/small-2.png[/img]
 
