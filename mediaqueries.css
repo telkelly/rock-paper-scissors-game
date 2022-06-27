@@ -54,6 +54,102 @@
   }
 }
 
+
+@media screen and (min-width: 1023px) {
+  header {
+    width: 550px;
+    margin: 1.5rem auto 0;
+  }
+
+  .choice-block {
+    grid-template: repeat(3, 140px) / repeat(2, 1fr);
+    margin: 8rem auto 0;
+    width: 395px;
+    height: auto;
+    background: no-repeat local 50% 50%;
+    background-image: url(./img/bg-pentagon.svg);
+    background-size: 75%;
+  }
+
+  .user-picked, .house-picked{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  .picked {
+    width: 750px;
+    margin: 8rem auto 0;
+    grid-template: 1fr / repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    column-gap: 3rem;
+  }
+
+  .picked p{
+    padding-bottom: 2rem;
+  }
+
+  .picked p, h1{
+    font-size: 1.3rem;
+  }
+
+  .btn-choice {
+    height: 7.6rem;
+    width: 7.6rem;
+  }
+
+  .btn-choice .wrapper {
+    height: 5.9rem;
+    width: 5.9rem;
+  }
+
+  .user-picked {
+    grid-column: 1;
+  }
+
+  .btn-picked{
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .btn-picked .wrapper{
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .btn-picked img{
+    width: 4rem;
+  }
+
+  .result {
+    padding-top: 0;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .house-picked {
+    grid-column: 3;
+  }
+
+  .btn-rules {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .rules-img {
+    width: 500px;
+    height: 500px;
+    top: 25%;
+    left: 32%;
+    border: 5px solid var(--border-color);
+    border-radius: 10px;
+  }
+}
+
 @media screen and (min-height: 700px) {
   .container {
     width: 100%;
@@ -82,73 +178,6 @@
     justify-content: space-around;
     height: 650px;
   }
-
-  .choice-block {
-    grid-template: repeat(3, 140px) / repeat(2, 1fr);
-    margin: 3rem auto 0;
-    width: 470px;
-    height: auto;
-    background: no-repeat local 50% 65%;
-    background-image: url(./img/bg-pentagon.svg);
-    background-size: 75%;
-  }
-
-  .picked {
-    width: 650px;
-    margin: 8rem auto 0;
-    grid-template: 1fr / repeat(3, 1fr);
-    justify-items: center;
-    column-gap: 1.5rem;
-  }
-
-  .picked p,
-  h1 {
-    font-size: 1rem;
-  }
-
-  .btn-choice {
-    height: 8rem;
-    width: 8rem;
-  }
-
-  .btn-choice .wrapper {
-    height: 6.2rem;
-    width: 6.2rem;
-  }
-
-  .btn-lizard,
-  .btn-rock {
-    align-self: flex-end;
-    justify-self: center;
-  }
-  .btn-scissors {
-    align-self: flex-start;
-  }
-
-  .btn-result {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (min-width: 1023px) {
-  .rules-img {
-    width: 500px;
-    height: 500px;
-    top: 25%;
-    left: 26%;
-    border: 5px solid var(--border-color);
-    border-radius: 10px;
-  }
 }
 
 
-@media screen and (min-width: 1440px) {
-  .rules-img {
-    width: 500px;
-    height: 500px;
-    top: 25%;
-    left: 32%;
-    border: 5px solid var(--border-color);
-    border-radius: 10px;
-  }
-}
