@@ -24,7 +24,7 @@ Users should be able to:
 
 <a href="https://postimg.cc/9rkLQwM0" target="_blank"><img src="https://i.postimg.cc/Qd8wSpZQ/small-1.png" alt="small-1"/></a><br/><br/>
 <a href="https://postimg.cc/Vdv7wWz2" target="_blank"><img src="https://i.postimg.cc/GhJ6kXV3/small-2.png" alt="small-2"/></a><br/><br/>
-<a href="https://postimg.cc/G9qM65nk" target="_blank"><img src="https://i.postimg.cc/BQGdLrhw/small-3.png" alt="small-3"/></a><br/><
+<a href="https://postimg.cc/G9qM65nk" target="_blank"><img src="https://i.postimg.cc/BQGdLrhw/small-3.png" alt="small-3"/></a><br/><br/>
 
 ### Screenshot for laptop devices:
 <a href="https://postimg.cc/vDQqqdkY" target="_blank"><img src="https://i.postimg.cc/sfWk2jJh/big-1.png" alt="big-1"/></a><br/><br/>
