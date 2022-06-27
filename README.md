@@ -21,19 +21,15 @@ Users should be able to:
 - Maintain the state of the score after refreshing the browser
 
 ### Screenshot for small devices:
-<a href="https://postimg.cc/qtgcRg81" target="_blank"><img src="https://i.postimg.cc/YSzddWjB/big-1.png" alt="big-1"/></a><br/><br/>
 
-[img]https://i.postimg.cc/64xCY0FP/small-2.png[/img]
-
-[img]https://i.postimg.cc/mcqYFRjB/small-3.png[/img]
+<a href="https://postimg.cc/9rkLQwM0" target="_blank"><img src="https://i.postimg.cc/Qd8wSpZQ/small-1.png" alt="small-1"/></a><br/><br/>
+<a href="https://postimg.cc/Vdv7wWz2" target="_blank"><img src="https://i.postimg.cc/GhJ6kXV3/small-2.png" alt="small-2"/></a><br/><br/>
+<a href="https://postimg.cc/G9qM65nk" target="_blank"><img src="https://i.postimg.cc/BQGdLrhw/small-3.png" alt="small-3"/></a><br/><
 
 ### Screenshot for laptop devices:
-
-[url=https://postimg.cc/qtgcRg81][img]https://i.postimg.cc/qtgcRg81/big-1.png[/img][/url]
-
-[url=https://postimg.cc/pyKfywFM][img]https://i.postimg.cc/pyKfywFM/big-2.png[/img][/url]
-
-[url=https://postimg.cc/ykBFRLmg][img]https://i.postimg.cc/ykBFRLmg/big-3.png[/img][/url]
+<a href="https://postimg.cc/vDQqqdkY" target="_blank"><img src="https://i.postimg.cc/sfWk2jJh/big-1.png" alt="big-1"/></a><br/><br/>
+<a href="https://postimg.cc/1ghMpxDZ" target="_blank"><img src="https://i.postimg.cc/DzmD3nZm/big-2.png" alt="big-2"/></a><br/><br/>
+<a href="https://postimg.cc/75TmGPGV" target="_blank"><img src="https://i.postimg.cc/VkKThdz3/big-3.png" alt="big-3"/></a><br/><br/>
 
 ### Links
 
